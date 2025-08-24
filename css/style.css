@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(116, 235, 179);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 150px;
+    height: auto;
+}
+
+.image-details img {
+    max-width: 500px;
+    height: auto;
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
